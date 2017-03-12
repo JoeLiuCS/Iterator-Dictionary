@@ -54,6 +54,7 @@ public class main {
 	System.out.println("show me : " + temp.get(2));
 	
 	test.remove(0);
+	
 	}
 
 }

@@ -66,9 +66,7 @@ public class Dictionary<K,V> implements DictionaryInterface<K,V> {
 		}
 		else{
 			if(keyList.contains(key)){
-				System.out.println("Come here1");
 				int getIndex = findIndexOfKey(key);
-				System.out.println("get value : " + value);
 				dictionary.get(getIndex).addValue(value);
 				valueList.add(value);
 			}
